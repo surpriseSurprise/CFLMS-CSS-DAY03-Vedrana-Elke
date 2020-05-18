@@ -1,0 +1,88 @@
+.container{
+    max-width: 30vw;
+    border: 1px solid black;
+    padding: 1vw;
+    font-family: Arial;
+    font-size: 1.5rem;
+}
+h1 {
+    font-family: Arial;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-family: Arial;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.pleft {
+    flex-basis: 50%;
+    text-align: left;
+}
+
+.pright {
+    flex-basis: 25%;
+    text-align: right;
+}
+
+.flex_r1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 10px solid black;
+    border-bottom: 1px solid black;
+    font-size: 1rem;
+    font-weight: bold;
+    }
+
+.flex_r2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    border-bottom: 1px solid black;
+    font-size: 1rem;
+    font-weight: bold;
+    }
+
+.flex1-1, .flex2, .flex3, .flex4, .flex5, .flex7, .flex7, .flex8, .flex9, .flex10  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    }
+
+.flex1-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 5px solid black;
+    padding-left: 1vw;
+        }
+
+.flex6  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 10px solid black;
+    }
+
+.flex2-1, .flex2-2, .flex5-1, .flex5-2 {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 1vw;
+    border-bottom: 1px solid black;
+    }
+
+.flex11  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: bold;
+    }
