@@ -27,6 +27,8 @@ main p {
 
 p.small {
 	font-size: 80%;
+	margin-top: auto;
+	margin-bottom: 0;
 }
 
 p.indent {
@@ -70,6 +72,10 @@ div.row {
 	text-align: center;
 }
 
+.group2 .row .right {
+	width: 100%;
+	text-align: end;
+}
 
 div.footnote {
 	font-size: 80%;
